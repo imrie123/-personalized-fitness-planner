@@ -1,0 +1,15 @@
+# Rails関連
+/rails/log/*
+/rails/tmp/*
+/rails/db/*.sqlite3
+/rails/db/*.sqlite3-journal
+/rails/public/system/*
+/rails/.bundle
+/rails/node_modules
+
+# Next.js関連
+/nextjs/.next
+/nextjs/node_modules
+/nextjs/out
+
+.env
