@@ -11,6 +11,7 @@ gem 'rails', '~> 7.1.5'
 gem 'rubocop', require: false
 gem 'tzinfo-data', platforms: %i[windows jruby]
 gem 'jwt'
+gem 'rest-client'
 gem 'rack-cors'
 group :development, :test do
   gem 'debug', platforms: %i[mri windows]
