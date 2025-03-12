@@ -7,13 +7,13 @@ gem 'bootsnap', require: false
 gem 'dotenv-rails'
 gem 'jwt'
 gem 'mysql2', '>= 0.5.3'
+gem 'pry'
 gem 'puma', '>= 5.0'
 gem 'rack-cors'
 gem 'rails', '~> 7.1.5'
 gem 'rest-client'
 gem 'rubocop', require: false
 gem 'tzinfo-data', platforms: %i[windows jruby]
-gem 'pry'
 group :development, :test do
   gem 'debug', platforms: %i[mri windows]
 end
